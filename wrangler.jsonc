@@ -12,14 +12,5 @@
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application"
-  },
-
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "egg-village-db",
-      "database_id": "cb618749-7ec5-4029-904c-bdcea7ecd7cd",
-      "migrations_dir": "migrations"
-    }
-  ]
+  }
 }
