@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "egg-village-member-system",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-07-19",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
+
+  // 建立 D1 後，請取消註解並填入 database_id
+  // ,"d1_databases": [
+  //   {
+  //     "binding": "DB",
+  //     "database_name": "egg-village-db",
+  //     "database_id": "請貼上 D1 Database ID",
+  //     "migrations_dir": "migrations"
+  //   }
+  // ]
+}
