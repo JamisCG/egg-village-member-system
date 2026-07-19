@@ -4,6 +4,10 @@
   "main": "worker/index.js",
   "compatibility_date": "2026-07-19",
 
+  "vars": {
+    "LINE_LOGIN_CHANNEL_ID": "2010756755"
+  },
+
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
