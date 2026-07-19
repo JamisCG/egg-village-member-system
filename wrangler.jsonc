@@ -14,7 +14,7 @@
     {
       "binding": "DB",
       "database_name": "egg-village-db",
-      "database_id": "在這裡貼上真正的Database ID",
+      "database_id": "cb618749-7ec5-4029-904c-bdcea7ecd7cd",
       "migrations_dir": "migrations"
     }
   ]
