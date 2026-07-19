@@ -1,20 +1,21 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "egg-village-member-system",
+  "name": "egg-village-member-v3",
   "main": "worker/index.js",
   "compatibility_date": "2026-07-19",
+
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application"
-  }
+  },
 
-,
-"d1_databases": [
-  {
-    "binding": "DB",
-    "database_name": "egg-village-db",
-    "database_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-    "migrations_dir": "migrations"
-  }
-]
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "egg-village-db",
+      "database_id": "在這裡貼上真正的Database ID",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
